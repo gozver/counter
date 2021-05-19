@@ -1,0 +1,23 @@
+<mat-toolbar>
+  <div class="container">
+    <span class="title">
+      <a routerLink="/">
+        <span>Counter</span>
+      </a>
+    </span>
+
+    <span>
+      <a class="fs-16" mat-button routerLinkActive="active-link" routerLink="/">
+        <span>Home</span>
+      </a>
+
+      <a class="fs-16" mat-button routerLinkActive="active-link" routerLink="/counter">
+        <span>Counter</span>
+      </a>
+    </span>
+  </div>
+</mat-toolbar>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
